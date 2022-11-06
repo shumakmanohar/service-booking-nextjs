@@ -30,8 +30,13 @@ const Login = () => {
 				<h1 className="text-3xl mb-4">Log IN</h1>
 				<p className="opacity-60"> Log In to View the Dashboard</p>
 			</div>
+
 			<div>
 				<form action="" className="max-w-sm flex flex-col space-y-4">
+					<div className="p-4 space-y-2 bg-yellow-200 rounded-lg shadow-md">
+						<p>username:guest@temp.com</p>
+						<p>password:guest123</p>
+					</div>
 					<TextField
 						fullWidth
 						id="outlined-basic"
